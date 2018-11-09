@@ -1,0 +1,10 @@
+label,p {
+    font-size: 24px;
+    text-shadow: 2px 2px 2px #91a8b6;
+}
+
+button {
+    display: block;
+    color: #f4fafe;
+    font-size: 30px;
+}

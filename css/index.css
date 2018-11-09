@@ -1,0 +1,214 @@
+.background {
+    background: url("../images/background.png");
+    height: 1080px;
+    width: 1920px;
+}
+
+.head {
+    height: 178px;
+    width: 1920px;
+}
+
+.index {
+    height: 902px;
+    width: 1920px;
+}
+
+.balloon-left {
+    position: absolute;
+    margin-left: 188px;
+    margin-top: 28px;
+    height: 150px;
+    width: 92px;
+}
+
+.title {
+    position: absolute;
+    margin-left: 294px;
+    margin-top: 96px; 
+    height: 56px;
+    width: 472px;
+}
+
+.border {
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 502px;
+    border: 6px solid;
+    border-image: -webkit-linear-gradient(left top, #6bc7f0 , #d6f2fc)30 30;
+    border-image: -o-linear-gradient(bottom right, #6bc7f0, #d6f2fc)30 30;
+    border-image: -moz-linear-gradient(bottom right, #6bc7f0,#d6f2fc)30 30;
+    border-image: linear-gradient(to bottom right, #6bc7f0 ,#d6f2fc)30 30;
+    height: 664px;
+    width: 920px;
+    z-index: 1;
+}
+
+.name {
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 88px;
+}
+
+.gender {
+    position: absolute;
+    margin-left: 326px;
+    margin-top: 88px;
+}
+
+.major {
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 170px;
+}
+
+.class {
+    position: absolute;
+    margin-left: 326px;
+    margin-top: 170px;
+}
+
+.phone {
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 252px;
+}
+
+.volunteer-1 {
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 334px;
+}
+
+.volunteer-2 {
+    position: absolute;
+    margin-left: 502px;
+    margin-top: 334px;
+}
+
+.arrow-1 {
+    position: absolute;
+    width:20px;
+    height:10px;
+    border-bottom:3px solid #000000;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.45);
+    margin-top: 14px;
+    margin-left: 350px;
+}
+
+.arrow-2 {
+    position: absolute;
+    width:20px;
+    height:10px;
+    border-bottom:3px solid #000000;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.45);
+    margin-top: 20px;
+    margin-left: 362px;
+}
+
+.arrow-3 {
+    position: absolute;
+    width:20px;
+    height:10px;
+    border-bottom:3px solid #000000;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.45);
+    margin-top: 14px;
+    margin-left: 274px;
+}
+
+.arrow-4 {
+    position: absolute;
+    width:20px;
+    height:10px;
+    border-bottom:3px solid #000000;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=0.45);
+    margin-top: 20px;
+    margin-left: 286px;
+}
+
+.reason {
+    position: absolute;
+    margin-left: 74px;
+    margin-top: 400px;
+    height: 150px;
+    width: 782px;
+}
+
+.reason-1 {
+    position: absolute;
+    margin-top: 18px;
+    height: 110px;
+    width: 782px;
+}
+
+.portrait-text {
+    margin-top: 180px;
+    margin-left: 608px;  
+    height: 70px;
+    width: 24px
+}
+
+.portrait {
+    background: #f4fafe;
+    margin-top: -202px;
+    margin-left: 638px;
+    height: 204px;
+    width: 170px;
+    border: none; 
+    border-radius: 20px;
+}
+
+.people {
+    margin-left: 16px;
+    margin-top: 40px;
+    width: 140px;
+    height: 204px;
+}
+
+.button-1 {
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 388px;
+    box-shadow: 2px 2px 20px #91a8b6;
+    height: 68px;
+    width: 164px;
+}
+
+.button-2 {
+    background: -webkit-linear-gradient(left, #52aff4 , #51b1f4); 
+    background: -o-linear-gradient(right, #52aff4 , #51b1f4); 
+    background: -moz-linear-gradient(right, #52aff4 , b#51b1f4); 
+    background: linear-gradient(to right, #52aff4 ， #51b1f4); 
+    border: #9ed5f4;
+    height: 68px;
+    width: 164px;
+}
+
+.balloon-right {
+    position: absolute;
+    margin-left: 1394px;
+    margin-top: 76px;  
+    height: 326px;
+    width: 284px;
+    z-index: 2;
+}
+
+.shadow {
+    position:relative; 
+    display:inline-block;
+    top:-214px;
+    margin-top: -1000px; 
+    margin-left: 504px;
+    height: 666px;
+    width: 926px;
+    background: blue;
+    opacity: 0.035;
+}

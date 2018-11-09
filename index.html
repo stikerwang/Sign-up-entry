@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <title>报名入口</title>
+        <link rel="stylesheet" href="css/commen.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/reset.css">
+    </head>
+    <body>
+        <div class="background">
+            <div class="head">
+                <div class="balloon-left"><img src="images/balloon-left.png"></div>
+                <div class="title"><img src="images/title.png"></div>
+            </div>
+                   
+            <div class="index"> 
+                
+                <div class="border">
+                   <form>   
+                    <div class="name">   
+                        <label style="">姓名：</label>
+                        <input type="text" style="border: none; border-radius: 20px;height: 41px;width: 152px;" name="name">                  
+                    </div>
+         
+                    <div class="gender">
+                        <label>性别：</label>
+                        <input type="text" style="border: none; border-radius: 20px;height: 41px;width: 152px;" name="gender">
+                    </div>
+                            
+                    <div class="major">
+                        <label>专业：</label>
+                        <input type="text" style="border: none; border-radius: 20px;height: 41px;width: 152px;" name="major">
+                    </div>
+            
+                    <div class="class">
+                        <label>班级：</label>
+                        <input type="text" style="border: none; border-radius: 20px;height: 41px;width: 152px;" name="class">
+                    </div>
+                            
+                    <div class="phone">
+                        <label>电话：</label>
+                        <input type="number" style="border: none; border-radius: 20px;height: 41px;width: 414px;" name="phone">
+                    </div>
+        
+                    <div class="volunteer-1">
+                        <div class="arrow-1"></div>
+                        <div class="arrow-2"></div>
+                        <label>志愿：</label>
+                            <select  style="border: none; border-radius: 20px;height: 41px;width: 304px;">
+                                <option value="" ></option>
+                            </select>        
+                    </div>
+        
+                    <div class="volunteer-2">
+                        <div class="arrow-3"></div>
+                        <div class="arrow-4"></div>
+                        <form>
+                            <select style="border: none; border-radius: 20px;height: 41px;width: 304px;">
+                                <option value=""></option>
+                            </select>
+                        </form>
+                    </div>
+        
+                    <div class="reason">
+                            <p style="text-align:center;">填报理由</p>
+                            <div class="reason-1">
+                                <textarea style="border: none; border-radius: 20px;height: 110px;width: 782px;"></textarea>
+                            </div>
+                    </div>
+        
+                    <div class="portrait-text"><p>照片</p></div>
+                    
+                    <div class="portrait">
+                        
+                        <div class="people"><img style="margin-top:30px" src="images/portrait.png">
+                            <input type="file" name="pic" onchange="change(event)" onclick="cusInput=document.getElementById('myimg').src">
+                        </div>    
+                    </div>
+        
+                    <div class="button-1">
+                        <button class="button-2" type="button">完成</button>
+                    </div>
+
+                    </form> 
+                </div>
+                
+                <div class="balloon-right"><img src="images/balloon-right.png"></div> 
+            
+            </div>
+                              
+        </div>
+        
+        <div class="shadow"></div>
+    </body>
+</html>
