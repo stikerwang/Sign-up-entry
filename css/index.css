@@ -158,7 +158,7 @@
 
 .portrait {
     background: #f4fafe;
-    margin-top: -202px;
+    margin-top: -200px;
     margin-left: 638px;
     height: 204px;
     width: 170px;
@@ -166,8 +166,12 @@
     border-radius: 20px;
 }
 
-.people {
-    margin-left: 16px;
+.people input{
+    display: none;
+}
+
+.people{
+    margin-left: 14px;
     margin-top: 40px;
     width: 140px;
     height: 204px;
